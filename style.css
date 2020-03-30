@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+*{
+  font-family: 'Roboto', sans-serif;
+  
+}
+a{
+  color:#fff;
+}
+.navbar{
+    background-color:transparent;
+}
+
+.header {
+  background-image: url('img/Banner01.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 765px;
+
+}
+.header h1 {
+  color: #F2FF62;
+  font-weight: 600;
+  font-size: 3rem;
+  padding-top:200px;
+  margin-bottom:50px;
+  margin-top: 60px;
+}
+header p{
+  color:#fff;
+  font-size:20px;
+}
+.btn-navbar{
+  text-decoration: none;
+  box-shadow: 0px 0px 20px rgb(83, 201, 245);
+  color:#3262AA;
+  background-color: #F2FF62;
+  border-radius: 6px;
+  font-weight: normal;
+  transition: all 0.2s ease-in-out;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.btn-navbar02{
+  box-shadow: 0px 0px 20px rgb(83, 201, 245);
+  border: 2px solid #F2FF62;
+  background-color:transparent;
+  color:#fff;
+  border-radius: 6px;
+}
+.nossahistoria{
+  background-color:#fff;
+  margin-top: -150px;
+  border-radius: 6px;
+}
