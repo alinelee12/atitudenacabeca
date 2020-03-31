@@ -53,3 +53,9 @@ header p{
   margin-top: -150px;
   border-radius: 6px;
 }
+
+.container-fluid footer{
+  height: 100%;
+  background-color: blue;
+  background-image: linear-gradient(to right, blue , green);
+}
