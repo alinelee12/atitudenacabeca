@@ -6,6 +6,7 @@
 a{
   color:#fff;
 }
+
 .navbar{
     background-color:transparent;
 }
@@ -83,3 +84,7 @@ header p{
         color: rgb(32, 141, 230);
         text-align: right;                           
     }
+.numb{
+  color:#58CAF9;
+  font-size:5rem
+}
