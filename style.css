@@ -72,4 +72,14 @@ header p{
     color: rgb(194, 194, 194);
     text-align: left;
   }
-
+  
+    .numeroesq{
+        font-size: 150px;
+        color: rgb(32, 141, 230);
+        text-align: left;                           
+    }
+    .numerodir{
+        font-size: 150px;
+        color: rgb(32, 141, 230);
+        text-align: right;                           
+    }
