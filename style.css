@@ -4,46 +4,49 @@
   
 }
 a{
-  color:#fff;
+  color:#BF5F82;
 }
-
-.navbar{
-    background-color:transparent;
+.bg-light{
+  background-color:white!important;
+  border-bottom: 1px solid #BF5F82;
 }
-
 .header {
-  background-image: url('img/Banner01.png');
+  background-image: url('img/pink-banner.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 765px;
+  height: 600px;
+  margin-top:60px;
 
 }
 .header h1 {
   color: #F2FF62;
   font-weight: 600;
   font-size: 3rem;
-  padding-top:200px;
+  padding-top:150px;
   margin-bottom:50px;
-  margin-top: 60px;
 }
 header p{
   color:#fff;
   font-size:20px;
 }
+.logo{
+  width:100px;
+}
 .btn-navbar{
   text-decoration: none;
-  box-shadow: 0px 0px 20px rgb(83, 201, 245);
-  color:#3262AA;
+  box-shadow: 0px 0px 20px #F2FF62;
+  color:#BF5F82;
   background-color: #F2FF62;
   border-radius: 6px;
   font-weight: normal;
   transition: all 0.2s ease-in-out;
   text-transform: uppercase;
   font-weight: bolder;
+  border: 1px solid #BF5F82;
 }
 .btn-navbar02{
-  box-shadow: 0px 0px 20px rgb(83, 201, 245);
+  box-shadow: 0px 0px 20px #F2FF62;
   border: 2px solid #F2FF62;
   background-color:transparent;
   color:#fff;
@@ -54,16 +57,8 @@ header p{
   margin-top: -150px;
   border-radius: 6px;
 }
-
-.col-md-6 {
-    flex: 0 0 50%;
-    max-width: 50%;
-    padding-top:10px;
-    padding-bottom: 10px;
-}
-
 .nossa h1{
-    color: rgb(8, 34, 153);
+    color: BF5F82;
     font-weight: 600;
     font-size: 3rem;
     margin-bottom: 30px;
@@ -77,7 +72,7 @@ header p{
   
 .numero{
     font-size: 100px;
-    color: rgb(32, 141, 230);
+    color: rBF5F82;
     text-align: right;                           
 }
 
@@ -107,7 +102,7 @@ header p{
   font-size: 24px;
 }
 .bg-gradiente{
-  background: linear-gradient(247.72deg, rgb(98, 239, 255) -49.61%, rgb(50, 98, 170) 141.38%);
+  background: linear-gradient(247.72deg, #EC407A -49.61%, #EA80FC  141.38%);
 }
 
 .vl {
@@ -116,7 +111,7 @@ header p{
 }
 
 .bg-gradiente2{
-  background: linear-gradient(304.59deg, #62EFFF -24.54%, #4382EC 104.29%);
+  background: linear-gradient(304.59deg, #EC407A -24.54%, #EA80FC 104.29%);
 }
 
 .texto-bottom{
@@ -129,4 +124,16 @@ header p{
   font-size: 18px;
 }
 
-#F2FF62
+/*Ajustes Mobile */
+@media (max-width: 600px) {
+  .header {
+    background-position: center;  
+  }
+  .header h1 {
+    color: #F2FF62;
+    font-weight: 600;
+    font-size: 2rem;
+    padding-top:50px;
+    margin-bottom:10px;
+  }
+}
