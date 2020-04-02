@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+*{
+  font-family: 'Roboto', sans-serif;
+  
+}
+a{
+  color:#BF5F82;
+}
+.bg-light{
+  background-color:white!important;
+  border-bottom: 1px solid #BF5F82;
+}
+.header {
+  background-image: url('img/pink-banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  margin-top:60px;
+
+}
+.header h1 {
+  color: #F2FF62;
+  font-weight: 600;
+  font-size: 3rem;
+  padding-top:150px;
+  margin-bottom:50px;
+}
+header p{
+  color:#fff;
+  font-size:20px;
+}
+.logo{
+  width:100px;
+}
+.btn-navbar{
+  text-decoration: none;
+  box-shadow: 0px 0px 20px #F2FF62;
+  color:#BF5F82;
+  background-color: #F2FF62;
+  border-radius: 6px;
+  font-weight: normal;
+  transition: all 0.2s ease-in-out;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border: 1px solid #BF5F82;
+}
+.btn-navbar02{
+  box-shadow: 0px 0px 20px #F2FF62;
+  border: 2px solid #F2FF62;
+  background-color:transparent;
+  color:#fff;
+  border-radius: 6px;
+}
+.nossahistoria{
+  background-color:#fff;
+  margin-top: -150px;
+  border-radius: 6px;
+}
+.nossa h1{
+    color: BF5F82;
+    font-weight: 600;
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+  
+  .nhistoria p{
+    font-size: 25px;
+    color: rgb(194, 194, 194);
+    text-align: left;
+  }
+  
+.numero{
+    font-size: 100px;
+    color: rBF5F82;
+    text-align: right;                           
+}
+
+.numb{
+  color:#58CAF9;
+  font-size:5rem
+}
+.texto-tutorial{
+  color: rgb(8, 34, 153);
+  font-weight: 700;
+  font-size: 25px;
+}
+.imgdir{
+  right: 30rem;
+}
+.imgesq{
+  left: 30rem;
+}
+
+.numero-contribuidores{
+  font-size: 64px;
+  color: rgb(242, 255, 98);                          
+}
+.texto-contribuidores{
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 24px;
+}
+.bg-gradiente{
+  background: linear-gradient(247.72deg, #EC407A -49.61%, #EA80FC  141.38%);
+}
+
+.vl {
+  border-left: 6px solid rgb(242, 255, 98);
+  height: 100px;
+}
+
+.bg-gradiente2{
+  background: linear-gradient(304.59deg, #EC407A -24.54%, #EA80FC 104.29%);
+}
+
+.texto-bottom{
+  font-size: 36px;
+  color: rgb(242, 255, 98);                          
+}
+.texto-bottom2{
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/*Ajustes Mobile */
+@media (max-width: 600px) {
+  .header {
+    background-position: center;  
+  }
+  .header h1 {
+    color: #F2FF62;
+    font-weight: 600;
+    font-size: 2rem;
+    padding-top:50px;
+    margin-bottom:10px;
+  }
+}
