@@ -67,6 +67,7 @@ header p{
     font-weight: 600;
     font-size: 3rem;
     margin-bottom: 30px;
+}
   
   .nhistoria p{
     font-size: 25px;
@@ -74,17 +75,58 @@ header p{
     text-align: left;
   }
   
-    .numeroesq{
-        font-size: 150px;
-        color: rgb(32, 141, 230);
-        text-align: left;                           
-    }
-    .numerodir{
-        font-size: 150px;
-        color: rgb(32, 141, 230);
-        text-align: right;                           
-    }
+.numero{
+    font-size: 100px;
+    color: rgb(32, 141, 230);
+    text-align: right;                           
+}
+
 .numb{
   color:#58CAF9;
   font-size:5rem
 }
+.texto-tutorial{
+  color: rgb(8, 34, 153);
+  font-weight: 700;
+  font-size: 25px;
+}
+.imgdir{
+  right: 30rem;
+}
+.imgesq{
+  left: 30rem;
+}
+
+.numero-contribuidores{
+  font-size: 64px;
+  color: rgb(242, 255, 98);                          
+}
+.texto-contribuidores{
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 24px;
+}
+.bg-gradiente{
+  background: linear-gradient(247.72deg, rgb(98, 239, 255) -49.61%, rgb(50, 98, 170) 141.38%);
+}
+
+.vl {
+  border-left: 6px solid rgb(242, 255, 98);
+  height: 100px;
+}
+
+.bg-gradiente2{
+  background: linear-gradient(304.59deg, #62EFFF -24.54%, #4382EC 104.29%);
+}
+
+.texto-bottom{
+  font-size: 36px;
+  color: rgb(242, 255, 98);                          
+}
+.texto-bottom2{
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+#F2FF62
